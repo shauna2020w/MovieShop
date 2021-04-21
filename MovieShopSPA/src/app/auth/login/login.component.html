@@ -1,0 +1,42 @@
+<div class="container mt-5">
+  
+  <form (ngSubmit)="login(loginForm)" #loginForm="ngForm" >
+    
+    <div *ngIf="invalidLogin"class="alert alert-danger">Invalid username and/or password.</div>
+
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        aria-describedby="emailHelp" name="email"  [(ngModel)]="userLogin.email"
+      />
+      <small id="emailHelp" class="form-text text-muted"
+        >We'll never share your email with anyone else.</small
+      >
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" id="password" name="password" [(ngModel)]="userLogin.password" />
+    </div>
+
+    <input type="submit" value="Submit" class="btn btn-primary" />
+  </form>
+
+</div>
+
+<!-- <div>
+  Observing two way binding Values:
+  {{twowayInfo}}
+</div> -->
+
+
+<!-- ngModel -->
+<!--  Install formMOdule in app.module -->
+<!-- create a model that you wanna use for your form -->
+<!-- in html file, always make sure you have name attribute for your form input elements -->
+<!-- [(ngModel)] ="userLogin.email" is two way binding sytax, called Banana in the box. propertys that wants to bind -->
+<!-- Template Vriables #loginForm(own name) = "ngForm"-->
+ <!--assigned all user date as ngform, named as LoginForm, passing as input of login()  -->
+

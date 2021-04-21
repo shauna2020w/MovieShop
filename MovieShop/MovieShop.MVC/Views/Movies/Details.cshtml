@@ -1,0 +1,52 @@
+﻿@model ApplicationCore.Models.Response.MovieDetailResponseModel
+
+@{ ViewData["Title"] = "Movie Details"; }
+
+<h1>@ViewData["Title"]</h1>
+<div class="bg-dark">
+            
+    <div class="card mb-4 shadow bg-light">
+        <a asp-area="">
+            <img src="@Model.PosterUrl" class="img-fluid" alt="@Model.Title" />
+        </a>
+        <ul class="list-group">
+            <li class="list-group-item">@Model.Title @Model.Rating</li>
+            <li class="list-group-item">@Model.Tagline</li>
+            <li class="list-group-item">@Model.Runtime | @Model.CreatedDate</li>
+            <li class="list-group-item">@Model.Genres</li>
+            <li class="list-group-item">@Model.Overview</li>
+        </ul>
+    </div>
+
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Purchase</a>
+        <a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Watch</a>
+    </div>
+           
+</div>
+
+<div>
+    <ul class="list-group">
+        <li class="list-group-item">Release Date: @Model.ReleaseDate</li>
+        <li class="list-group-item">Budget:@Model.Budget</li>
+        <li class="list-group-item">BoxOffice: @Model.BoxOffice</li>
+        <li class="list-group-item">Runtime: @Model.Runtime</li>
+
+
+    </ul>
+</div>
+<div>
+    <table class="table">
+        <thead>Cast Info</thead>
+        <tbody>
+            @foreach (var c in Model.CastCollection)
+            {
+                <tr>
+                    <td><img src="@c.ProfilePath"></td>
+                    <td>@c.Name</td>
+                    <td>@c.Movies</td>
+                </tr>
+             }
+        </tbody>
+    </table>
+</div>

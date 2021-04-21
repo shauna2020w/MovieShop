@@ -1,0 +1,20 @@
+﻿@model List<ApplicationCore.Models.Request.UserLoginRequestModel>
+
+@{
+    ViewData["Title"] = "Log in";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="form-floating mb-3">
+    <label for="floatingInput">Email address:</label>
+    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <label for="floatingPassword">Password:</label>
+    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+
+</div>
+<div>
+    </br>
+    <a class="btn btn-primary btn-lg" type="submit" asp-area="" asp-controller="User" asp-action="AccountInfo">Login</a>
+    <a asp-area="" asp-controller="User" asp-action="Register">Register</a>
+</div>
+

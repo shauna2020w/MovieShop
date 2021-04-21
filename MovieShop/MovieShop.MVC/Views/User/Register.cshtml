@@ -1,0 +1,23 @@
+﻿@model List<ApplicationCore.Models.Request.UserRegisterRequestModel>
+
+@{
+    ViewData["Title"] = "Welcome to join us!";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="form-floating">
+    <label for="floatingPassword">First Name:</label>
+    <input type="text" class="form-control" id="floatingPassword" placeholder="Enter your First Name">
+    <label for="floatingPassword">Last Name:</label>
+    <input type="text" class="form-control" id="floatingPassword" placeholder="Enter your Last Name">
+    <label for="floatingInput">Email address:</label>
+    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <label for="floatingPassword">Password:</label>
+    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+
+</div>
+<div>
+    
+    <a class="btn btn-primary btn-lg" type="submit" asp-area="" asp-controller="User" asp-action="AccountInfo">Register</a>
+    <a asp-area="" asp-controller="User" asp-action="Index">Back to Login page</a>
+</div>

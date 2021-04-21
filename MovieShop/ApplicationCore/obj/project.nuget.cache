@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ANe33AMw3iKMlzZ3zRBKtbhHB1em55R+B5VAUt6l8ilZtiNy1euA9PZ+d1MIzgDJJWFp5W1l/TGpy3Nbhibz3A==",
+  "success": true,
+  "projectFilePath": "D:\\ShaunaWorld\\Antra\\wk5\\MovieShop\\MovieShop\\ApplicationCore\\ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shuang Wu\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Shuang Wu\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "C:\\Users\\Shuang Wu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Shuang Wu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Shuang Wu\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\Shuang Wu\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Middlewares\**" />
+    <Compile Remove="Migrations\**" />
+    <EmbeddedResource Remove="Middlewares\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <None Remove="Middlewares\**" />
+    <None Remove="Migrations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Migrations\20210403213531_first.cs" />
+    <Compile Include="Migrations\20210403213531_first.Designer.cs" />
+    <Compile Include="Migrations\20210404133956_updatereview.cs" />
+    <Compile Include="Migrations\20210404133956_updatereview.Designer.cs" />
+    <Compile Include="Migrations\20210404135608_updatemoviecastrelationship.cs" />
+    <Compile Include="Migrations\20210404135608_updatemoviecastrelationship.Designer.cs" />
+    <Compile Include="Migrations\20210411143201_userUpdate.cs" />
+    <Compile Include="Migrations\20210411143201_userUpdate.Designer.cs" />
+    <Compile Include="Migrations\20210411232045_updateMovieGenreCast.cs" />
+    <Compile Include="Migrations\20210411232045_updateMovieGenreCast.Designer.cs" />
+    <Compile Include="Migrations\20210411234356_testMovieIdupdate.cs" />
+    <Compile Include="Migrations\20210411234356_testMovieIdupdate.Designer.cs" />
+    <Compile Include="Migrations\20210411234755_testMovieIdUpdate2.cs" />
+    <Compile Include="Migrations\20210411234755_testMovieIdUpdate2.Designer.cs" />
+    <Compile Include="Migrations\MovieShopDbContextModelSnapshot.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.10.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationCore\ApplicationCore.csproj" />
+  </ItemGroup>
+    <ItemGroup>
+	    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,27 @@
+﻿@model List<ApplicationCore.Models.Request.MovieCreateRequestModel>
+
+@{
+    ViewData["Title"] = "Create a Movie";
+}
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-floating mb-3">
+        <label for="floatingInput">Title</label>
+        <input type="text" class="form-control" id="newtitle" placeholder="Enter Official Movie Title">
+    </div>
+    <div class="form-floating">
+        <label for="floatingPassword">Budget</label>
+        <input type="number" class="form-control" id="newbudget" placeholder="Enter Budget">
+
+    </div><div class="form-floating mb-3">
+        <label for="floatingInput">Overview</label>
+        <input type="text" class="form-control" id="newoverview" placeholder="Enter Overview">
+
+    </div>
+
+    <div>
+        <input type="submit" value="Save Movie" id="btnSubmit" name="SaveMovieButton">
+        <input type="reset" value="Clear" id="btnSubmit" name="ClearButton">
+    </div>
+</form>

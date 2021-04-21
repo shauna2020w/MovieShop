@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "infinity1207.angular2-switcher",
+        "angular.ng-template",
+        "johnpapa.angular2",
+        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-close-tag",
+        "thekalinga.bootstrap4-vscode",
+        "christian-kohler.path-intellisense",
+        "coenraads.bracket-pair-colorizer",
+        "zignd.html-css-class-completion",
+        "rafapaulin.try-material-icon-theme",
+        "akamud.vscode-theme-onedark"
+    ]
+}

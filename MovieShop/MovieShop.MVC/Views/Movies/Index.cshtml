@@ -1,0 +1,25 @@
+﻿
+
+@model List<ApplicationCore.Models.Response.MovieCardResponseModel> 
+
+<h2>
+    Movie Index View
+</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <td> @movie.Id</td>
+                <td> @movie.Title</td>
+            </tr>
+        }
+    </tbody>
+</table>

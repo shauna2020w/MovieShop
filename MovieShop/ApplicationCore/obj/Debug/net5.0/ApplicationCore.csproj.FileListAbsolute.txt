@@ -1,0 +1,12 @@
+D:\ShaunaWorld\Antra\wk5\MovieShop\MovieShop\ApplicationCore\bin\Debug\net5.0\ApplicationCore.deps.json
+D:\ShaunaWorld\Antra\wk5\MovieShop\MovieShop\ApplicationCore\bin\Debug\net5.0\ApplicationCore.dll
+D:\ShaunaWorld\Antra\wk5\MovieShop\MovieShop\ApplicationCore\bin\Debug\net5.0\ref\ApplicationCore.dll
+D:\ShaunaWorld\Antra\wk5\MovieShop\MovieShop\ApplicationCore\bin\Debug\net5.0\ApplicationCore.pdb
+D:\ShaunaWorld\Antra\wk5\MovieShop\MovieShop\ApplicationCore\obj\Debug\net5.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\ShaunaWorld\Antra\wk5\MovieShop\MovieShop\ApplicationCore\obj\Debug\net5.0\ApplicationCore.AssemblyInfoInputs.cache
+D:\ShaunaWorld\Antra\wk5\MovieShop\MovieShop\ApplicationCore\obj\Debug\net5.0\ApplicationCore.AssemblyInfo.cs
+D:\ShaunaWorld\Antra\wk5\MovieShop\MovieShop\ApplicationCore\obj\Debug\net5.0\ApplicationCore.csproj.CoreCompileInputs.cache
+D:\ShaunaWorld\Antra\wk5\MovieShop\MovieShop\ApplicationCore\obj\Debug\net5.0\ApplicationCore.dll
+D:\ShaunaWorld\Antra\wk5\MovieShop\MovieShop\ApplicationCore\obj\Debug\net5.0\ref\ApplicationCore.dll
+D:\ShaunaWorld\Antra\wk5\MovieShop\MovieShop\ApplicationCore\obj\Debug\net5.0\ApplicationCore.pdb
+D:\ShaunaWorld\Antra\wk5\MovieShop\MovieShop\ApplicationCore\obj\Debug\net5.0\ApplicationCore.csprojAssemblyReference.cache

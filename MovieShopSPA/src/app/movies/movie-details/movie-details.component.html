@@ -1,0 +1,49 @@
+<!-- <p>(movie-details works!)</p> -->
+<p *ngIf ="movie ==null"> Movie Detail is comming.. </p>
+<div class="container-fluid text-center"*ngIf ="movie!=null">    
+    <div class="row content">
+        <div class="col-sm-3">
+            <app-movie-card [movie]="movie"> </app-movie-card>
+        </div>
+        <div class="col-sm-6 mt-5 text-lg-left">
+            <div>
+                <b class="bold text-decoration-none">{{details?.title}}</b>
+                <p style="border: 0ch;">{{details?.tagline}}</p>
+                <p class="badge badge-warning">{{details?.createdDate}}</p>
+            </div>
+            <div>
+                <p>OverView:</p>
+                <p>{{details?.overview}}</p>
+            </div>
+        </div>
+        <div class="col-sm-3 m-auto">
+            <button type="button" class="btn btn-outline-warning btn-lg btn-block">Trailer</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block">Purchase</button>
+            <button type="button" class="btn btn-secondary btn-lg btn-block">Watch</button> 
+            (not available for now.)
+        </div>
+    </div>
+
+    <div class="row content">
+        <div class="col-sm-3 text-left">
+            <p>Run time: {{details?.runtime}} min</p>
+            <p>Budget: {{details?.budget}}</p>
+            <p>BoxOffice: {{details?.boxOffice}}</p>
+            <p>Rating: {{details?.rating}}</p>
+        </div>
+        <div class="col-sm-9 text-left">
+            <table class="table table-striped" >
+                <b>Cast Information:</b>
+                <tr *ngFor="let c of details?.castCollection">
+                    <td> <img src="{{ c?.profilePath }}"class="rounded-circle"style="width:50px;"
+                        alt="{{ c?.name }}" /> </td>
+                    <td> {{c.name}} </td>
+                    <td> {{c.movies}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
